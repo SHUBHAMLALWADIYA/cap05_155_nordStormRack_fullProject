@@ -1,0 +1,47 @@
+#parent{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 25px;
+     justify-content: center;
+}
+
+#title{
+font-size: 20px;
+font-weight: bold;
+text-align: center;
+}
+#info{
+    padding: 20px;
+}
+
+#parent>div>img{
+    height: 350px;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+}
+
+
+@media all and (min-width:1024px)  {
+
+    #parent{
+         grid-template-columns: repeat(4,1fr);
+    }
+ }
+
+ @media all and (min-width:768px) and (max-width:1023px) {
+ 
+     #parent{
+         grid-template-columns: repeat(3,1fr);
+     }
+ }
+
+ @media all and (min-width:517px) and (max-width:767px) {
+ 
+    #parent{
+     grid-template-columns: repeat(2,1fr);
+    }
+ }
+

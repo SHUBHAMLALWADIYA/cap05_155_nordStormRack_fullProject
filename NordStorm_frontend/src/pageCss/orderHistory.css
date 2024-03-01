@@ -1,0 +1,26 @@
+#data{
+    padding: 10px;
+}
+
+#pTitle{
+    text-align: center;
+}
+#totalAmount{
+
+    display: block;
+    padding: 10px;
+    margin: auto;
+    margin-top: 30px;
+    background-color: rgb(7, 125, 41);
+    color: white;
+    font-size: 20px;
+}
+#dant{
+    color: rgb(18, 141, 9);
+    font-weight: 600;
+    
+}
+#date{
+    color:#186ADC ;
+    font-weight: 600;
+}

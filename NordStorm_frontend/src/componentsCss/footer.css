@@ -1,0 +1,39 @@
+#mainDiv{
+    width: auto;
+    margin-top: 50px;
+}
+
+#mainDiv>img{
+    width: 100%;
+}
+#getMail>div{
+  display: flex;
+  justify-content: end;
+  margin: 20px;
+ 
+}
+#footerPtag{
+margin: none;
+padding: 0%;
+width: fit-content;
+
+}
+#footerButton{
+    width: 300px;
+    height: fit-content;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #186ADC;
+    color: white;
+    font-size: 15px;
+}
+#footerInput{
+    width: 300px;
+    height: fit-content;
+    padding: 10px;
+}
+
+#footerButton:hover{
+    
+    background-color: rgb(6, 96, 170);
+}

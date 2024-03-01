@@ -1,0 +1,20 @@
+#homeMainDiv{
+    padding: 15px;
+}
+img{
+    width:100%;
+}
+
+#homeSign{
+    font-size: 12px;
+    padding: 10px;
+    display: block;
+    margin: auto;
+    background-color: white;
+
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+#homeSign:hover{
+    background-color:rgb(163, 154, 154) ;
+}
